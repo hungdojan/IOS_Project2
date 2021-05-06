@@ -1,0 +1,250 @@
+2244 strtol(0x7ffd3567474e, 0x7ffd35674290, 10, 0) = 3
+2244 strtol(0x7ffd35674750, 0x7ffd35674290, 10, 0x1999999999999999) = 1
+2244 strtol(0x7ffd35674752, 0x7ffd35674290, 10, 0x1999999999999999) = 1
+2244 strtol(0x7ffd35674754, 0x7ffd35674290, 10, 0x1999999999999999) = 2
+2244 calloc(5, 4)                                = 0x556abe790260
+2244 fopen("proj2.out", "w")                     = 0x556abe790280
+2244 mmap(0, 192, 3, 33)                         = 0x7f64fe7bb000
+2244 sem_init(0x7f64fe7bb000, 1, 1, 0x7f64fe09e813) = 0
+2244 sem_init(0x7f64fe7bb020, 1, 0, 0x7f64fe09e813) = 0
+2244 sem_init(0x7f64fe7bb040, 1, 1, 0x7f64fe09e813) = 0
+2244 sem_init(0x7f64fe7bb060, 1, 0, 0x7f64fe09e813) = 0
+2244 sem_init(0x7f64fe7bb080, 1, 0, 0x7f64fe09e813) = 0
+2244 sem_init(0x7f64fe7bb0a0, 1, 0, 0x7f64fe09e813) = 0
+2244 mmap(0, 20, 3, 33)                          = 0x7f64fe7ba000
+2244 getpid()                                    = 2244
+2244 fork()                                      = 2245
+2244 signal(SIGUSR1, 0x556abd416070)             = 0
+2244 fork( <unfinished ...>
+2245 <... fork resumed> )                        = 0
+2245 sem_wait(0x7f64fe7bb000, 0x7f64fe58e2b0, 1, 0 <unfinished ...>
+2244 <... fork resumed> )                        = 2246
+2245 <... sem_wait resumed> )                    = 0
+2244 signal(SIGUSR1, 0x556abd416070 <unfinished ...>
+2245 __fprintf_chk(0x556abe790280, 1, 0x556abd416de9, 1 <unfinished ...>
+2244 <... signal resumed> )                      = 0x556abd416070
+2244 fork( <unfinished ...>
+2246 <... fork resumed> )                        = 0
+2245 <... __fprintf_chk resumed> )               = 25
+2246 time(0x7ffd35674260 <unfinished ...>
+2245 fflush(0x556abe790280 <unfinished ...>
+2244 <... fork resumed> )                        = 2247
+2246 <... time resumed> )                        = 1620118817
+2244 signal(SIGUSR1, 0x556abd416070 <unfinished ...>
+2246 getpid( <unfinished ...>
+2247 <... fork resumed> )                        = 0
+2244 <... signal resumed> )                      = 0x556abd416070
+2247 time(0x7ffd35674260 <unfinished ...>
+2244 fork( <unfinished ...>
+2247 <... time resumed> )                        = 1620118817
+2247 getpid( <unfinished ...>
+2246 <... getpid resumed> )                      = 2246
+2244 <... fork resumed> )                        = 2248
+2246 srand(0x38992f86, 1, 0x7f64fe795a00, 0x7f64fe068937 <unfinished ...>
+2244 signal(SIGUSR1, 0x556abd416070 <unfinished ...>
+2247 <... getpid resumed> )                      = 2247
+2247 srand(0x992a3ca7, 1, 0x7f64fe795a00, 0x7f64fe068937 <unfinished ...>
+2244 <... signal resumed> )                      = 0x556abd416070
+2247 <... srand resumed> )                       = 0
+2244 fork( <unfinished ...>
+2247 sem_wait(0x7f64fe7bb000, 0x7f64fe36e740, 0x7f64fe36e1c4, 0x7f64fe36e1d0 <unfinished ...>
+2246 <... srand resumed> )                       = 0
+2246 sem_wait(0x7f64fe7bb000, 0x7f64fe36e740, 0x7f64fe36e1c4, 0x7f64fe36e1d0 <unfinished ...>
+2244 <... fork resumed> )                        = 2249
+2244 signal(SIGUSR1, 0x556abd416070 <unfinished ...>
+2249 <... fork resumed> )                        = 0
+2249 time(0x7ffd35674250 <unfinished ...>
+2244 <... signal resumed> )                      = 0x556abd416070
+2249 <... time resumed> )                        = 1620118817
+2244 signal(SIGUSR1, 0x556abd416070 <unfinished ...>
+2249 getpid( <unfinished ...>
+2244 <... signal resumed> )                      = 0x556abd416070
+2249 <... getpid resumed> )                      = 2249
+2244 waitpid(2245, 0x7ffd356742dc, 0 <unfinished ...>
+2249 srand(0x5a4c56e9, 1, 2, 0x7f64fe068937 <unfinished ...>
+2248 <... fork resumed> )                        = 0
+2249 <... srand resumed> )                       = 0
+2248 time(0x7ffd35674260 <unfinished ...>
+2249 sem_wait(0x7f64fe7bb000, 0x7f64fe36e740, 0x7f64fe36e1c4, 0x7f64fe36e1d0 <unfinished ...>
+2248 <... time resumed> )                        = 1620118817
+2248 getpid()                                    = 2248
+2245 <... fflush resumed> )                      = 0
+2248 srand(0xf9bb49c8, 1, 0x7f64fe795a00, 0x7f64fe068937 <unfinished ...>
+2245 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2248 <... srand resumed> )                       = 0
+2248 sem_wait(0x7f64fe7bb000, 0x7f64fe36e740, 0x7f64fe36e1c4, 0x7f64fe36e1d0 <unfinished ...>
+2247 <... sem_wait resumed> )                    = 0
+2247 __fprintf_chk(0x556abe790280, 1, 0x556abd416e9e, 2 <unfinished ...>
+2245 <... sem_post resumed> )                    = 0
+2245 sem_wait(0x7f64fe7bb020, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2247 <... __fprintf_chk resumed> )               = 18
+2247 fflush(0x556abe790280)                      = 0
+2247 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224) = 0
+2247 rand(1, 1, 1, 0x7f64fe384ba4)               = 0x3550d6c6
+2247 usleep(0 <unfinished ...>
+2246 <... sem_wait resumed> )                    = 0
+2246 __fprintf_chk(0x556abe790280, 1, 0x556abd416e9e, 3 <unfinished ...>
+2247 <... usleep resumed> )                      = <void>
+2247 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2246 <... __fprintf_chk resumed> )               = 18
+2246 fflush(0x556abe790280)                      = 0
+2246 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2249 <... sem_wait resumed> )                    = 0
+2246 <... sem_post resumed> )                    = 0
+2249 __fprintf_chk(0x556abe790280, 1, 0x556abd416e59, 4 <unfinished ...>
+2246 rand(1, 1, 1, 0x7f64fe384ba4)               = 0x6544679b
+2246 usleep(0 <unfinished ...>
+2249 <... __fprintf_chk resumed> )               = 18
+2249 fflush(0x556abe790280)                      = 0
+2246 <... usleep resumed> )                      = <void>
+2249 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2246 sem_wait(0x7f64fe7bb000, 0, 0, 0)           = 0
+2249 <... sem_post resumed> )                    = 0
+2249 rand(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2246 __fprintf_chk(0x556abe790280, 1, 0x556abd416eb3, 5 <unfinished ...>
+2249 <... rand resumed> )                        = 0xac55e66
+2246 <... __fprintf_chk resumed> )               = 20
+2249 usleep(1000 <unfinished ...>
+2246 fflush(0x556abe790280)                      = 0
+2246 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2247 <... sem_wait resumed> )                    = 0
+2246 <... sem_post resumed> )                    = 0
+2247 __fprintf_chk(0x556abe790280, 1, 0x556abd416eb3, 6 <unfinished ...>
+2246 sem_wait(0x7f64fe7bb040, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2247 <... __fprintf_chk resumed> )               = 20
+2246 <... sem_wait resumed> )                    = 0
+2247 fflush(0x556abe790280 <unfinished ...>
+2246 sem_wait(0x7f64fe7bb000, 1, 0, 0x7f64fe384ba4 <unfinished ...>
+2247 <... fflush resumed> )                      = 0
+2247 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224) = 0
+2248 <... sem_wait resumed> )                    = 0
+2247 sem_wait(0x7f64fe7bb040, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2248 __fprintf_chk(0x556abe790280, 1, 0x556abd416e9e, 7) = 18
+2248 fflush(0x556abe790280)                      = 0
+2248 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224) = 0
+2246 <... sem_wait resumed> )                    = 0
+2248 rand(1, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2246 sem_post(0x7f64fe7bb040, 0, 0x7f64fe7ba000, 0 <unfinished ...>
+2248 <... rand resumed> )                        = 0x1fa975de
+2248 usleep(0 <unfinished ...>
+2247 <... sem_wait resumed> )                    = 0
+2247 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2249 <... usleep resumed> )                      = <void>
+2249 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2248 <... usleep resumed> )                      = <void>
+2248 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2246 <... sem_post resumed> )                    = 0
+2246 sem_post(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2249 <... sem_wait resumed> )                    = 0
+2246 <... sem_post resumed> )                    = 0
+2249 __fprintf_chk(0x556abe790280, 1, 0x556abd416e6e, 8 <unfinished ...>
+2246 sem_wait(0x7f64fe7bb080, 1, 1, 1 <unfinished ...>
+2249 <... __fprintf_chk resumed> )               = 21
+2249 fflush(0x556abe790280)                      = 0
+2249 sem_post(0x7f64fe7bb020, 0x556abe790360, 0x7f64fe7ba000, 0x7f64fe093224) = 0
+2245 <... sem_wait resumed> )                    = 0
+2249 sem_post(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2245 sem_wait(0x7f64fe7bb000, 0, 0, 0)           = 0
+2249 <... sem_post resumed> )                    = 0
+2249 sem_wait(0x7f64fe7bb060, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2245 __fprintf_chk(0x556abe790280, 1, 0x556abd416e04, 9) = 27
+2245 fflush(0x556abe790280)                      = 0
+2245 sem_post(0x7f64fe7bb060, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2249 <... sem_wait resumed> )                    = 0
+2245 <... sem_post resumed> )                    = 0
+2249 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2245 sem_post(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2249 <... sem_wait resumed> )                    = 0
+2249 __fprintf_chk(0x556abe790280, 1, 0x556abd416e86, 10) = 22
+2245 <... sem_post resumed> )                    = 0
+2249 fflush(0x556abe790280 <unfinished ...>
+2245 sem_wait(0x7f64fe7bb020, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2249 <... fflush resumed> )                      = 0
+2249 sem_post(0x7f64fe7bb020, 0x556abe790360, 0x7f64fe7ba000, 0x7f64fe093224) = 0
+2245 <... sem_wait resumed> )                    = 0
+2249 sem_post(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2245 sem_wait(0x7f64fe7bb000, 0, 0, 0)           = 0
+2249 <... sem_post resumed> )                    = 0
+2249 exit(0 <unfinished ...>
+2245 __fprintf_chk(0x556abe790280, 1, 0x556abd416e3b, 11) = 29
+2245 fflush(0x556abe790280 <no return ...>
+2249 +++ exited (status 0) +++
+2245 <... fflush resumed> )                      = 0
+2244 --- SIGCHLD (Child exited) ---
+2245 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224) = 0
+2248 <... sem_wait resumed> )                    = 0
+2245 sem_post(0x7f64fe7bb080, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2248 __fprintf_chk(0x556abe790280, 1, 0x556abd416eb3, 12) = 21
+2248 fflush(0x556abe790280 <unfinished ...>
+2246 <... sem_wait resumed> )                    = 0
+2246 sem_post(0x7f64fe7bb080, 0, 0, 0)           = 0
+2248 <... fflush resumed> )                      = 0
+2246 sem_wait(0x7f64fe7bb000, 128, 1, 0 <unfinished ...>
+2248 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <unfinished ...>
+2245 <... sem_post resumed> )                    = 0
+2248 <... sem_post resumed> )                    = 0
+2248 sem_wait(0x7f64fe7bb040, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2246 <... sem_wait resumed> )                    = 0
+2246 __fprintf_chk(0x556abe790280, 1, 0x556abd416ee0, 13 <unfinished ...>
+2245 exit(0 <unfinished ...>
+2246 <... __fprintf_chk resumed> )               = 27
+2246 fflush(0x556abe790280)                      = 0
+2246 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <no return ...>
+2245 +++ exited (status 0) +++
+2244 --- SIGCHLD (Child exited) ---
+2244 <... waitpid resumed> )                     = 2245
+2244 waitpid(2246, 0x7ffd356742dc, 0 <unfinished ...>
+2247 <... sem_wait resumed> )                    = 0
+2247 sem_post(0x7f64fe7bb040, 0, 0x7f64fe7ba000, 0 <unfinished ...>
+2246 <... sem_post resumed> )                    = 0
+2248 <... sem_wait resumed> )                    = 0
+2247 <... sem_post resumed> )                    = 0
+2248 sem_wait(0x7f64fe7bb000, 0, 0, 0 <unfinished ...>
+2247 sem_post(0x7f64fe7bb000, 1, 1, 0x7f64fe384ba4 <unfinished ...>
+2248 <... sem_wait resumed> )                    = 0
+2247 <... sem_post resumed> )                    = 0
+2248 sem_post(0x7f64fe7bb040, 0, 0x7f64fe7ba000, 0 <unfinished ...>
+2247 sem_wait(0x7f64fe7bb000, 1, 1, 0 <unfinished ...>
+2248 <... sem_post resumed> )                    = 0
+2248 sem_post(0x7f64fe7bb000, 128, 1, 0 <unfinished ...>
+2246 sem_post(0x7f64fe7bb040, 1, 1, 0x7f64fe384ba4) = 0
+2248 <... sem_post resumed> )                    = 0
+2247 <... sem_wait resumed> )                    = 0
+2248 sem_wait(0x7f64fe7bb000, 1, 1, 0 <unfinished ...>
+2247 __fprintf_chk(0x556abe790280, 1, 0x556abd416ee0, 14) = 27
+2246 exit(0 <unfinished ...>
+2247 fflush(0x556abe790280)                      = 0
+2247 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224 <no return ...>
+2246 +++ exited (status 0) +++
+2244 --- SIGCHLD (Child exited) ---
+2244 <... waitpid resumed> )                     = 2246
+2244 waitpid(2247, 0x7ffd356742dc, 0 <unfinished ...>
+2248 <... sem_wait resumed> )                    = 0
+2248 __fprintf_chk(0x556abe790280, 1, 0x556abd416ee0, 15) = 27
+2247 <... sem_post resumed> )                    = 0
+2248 fflush(0x556abe790280 <unfinished ...>
+2247 sem_post(0x7f64fe7bb040, 1, 1, 0x7f64fe384ba4) = 0
+2247 exit(0 <unfinished ...>
+2248 <... fflush resumed> )                      = 0
+2248 sem_post(0x7f64fe7bb000, 0x556abe790360, 0, 0x7f64fe093224) = 0
+2248 sem_post(0x7f64fe7bb040, 128, 1, 0x7f64fe093224 <no return ...>
+2247 +++ exited (status 0) +++
+2244 --- SIGCHLD (Child exited) ---
+2248 <... sem_post resumed> )                    = 0
+2244 <... waitpid resumed> )                     = 2247
+2248 exit(0 <unfinished ...>
+2244 waitpid(2248, 0x7ffd356742dc, 0 <no return ...>
+2248 +++ exited (status 0) +++
+2244 --- SIGCHLD (Child exited) ---
+2244 <... waitpid resumed> )                     = 2248
+2244 waitpid(2249, 0x7ffd356742dc, 0)            = 2249
+2244 fclose(0x556abe790280)                      = 0
+2244 sem_destroy(0x7f64fe7bb0a0, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 sem_destroy(0x7f64fe7bb080, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 sem_destroy(0x7f64fe7bb060, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 sem_destroy(0x7f64fe7bb040, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 sem_destroy(0x7f64fe7bb020, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 sem_destroy(0x7f64fe7bb000, 0x556abe790118, 0x556abe790010, 1) = 0
+2244 munmap(0x7f64fe7bb000, 192, 0x556abe790010, 1) = 0
+2244 munmap(0x7f64fe7ba000, 20, 0x556abe790010, 0x7f64fe09e8b7) = 0
+2244 +++ exited (status 0) +++

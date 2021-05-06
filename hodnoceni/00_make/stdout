@@ -1,0 +1,6 @@
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2   -c -o main.o main.c
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2   -c -o santa_task.o santa_task.c
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2   -c -o rendeer_task.o rendeer_task.c
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2   -c -o elf_task.o elf_task.c
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2   -c -o base.o base.c
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -O2 -o proj2 main.o santa_task.o rendeer_task.o elf_task.o base.o -lpthread -lrt

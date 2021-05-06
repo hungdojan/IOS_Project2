@@ -1,0 +1,369 @@
+1: Santa: going to sleep
+2: Elf 1: started
+3: Elf 1: need help
+4: Elf 2: started
+5: Elf 2: need help
+6: Elf 4: started
+7: Elf 4: need help
+8: Elf 5: started
+9: Elf 5: need help
+10: Elf 3: started
+11: Elf 3: need help
+12: Santa: helping elves
+13: Elf 7: started
+14: Elf 7: need help
+15: Elf 6: started
+16: Elf 6: need help
+17: Elf 4: get help
+18: Elf 4: need help
+19: Elf 1: get help
+20: Elf 1: need help
+21: Elf 8: started
+22: Elf 10: started
+23: Elf 10: need help
+24: Elf 11: started
+25: Elf 11: need help
+26: Elf 12: started
+27: Elf 8: need help
+28: Elf 2: get help
+29: Elf 2: need help
+30: Elf 14: started
+31: Elf 15: started
+32: Elf 18: started
+33: Elf 18: need help
+34: Elf 12: need help
+35: Elf 19: started
+36: Elf 19: need help
+37: Elf 16: started
+38: Elf 16: need help
+39: Elf 14: need help
+40: Elf 15: need help
+41: Elf 21: started
+42: Elf 21: need help
+43: Elf 13: started
+44: Elf 13: need help
+45: Elf 17: started
+46: Elf 17: need help
+47: Elf 24: started
+48: Elf 24: need help
+49: Elf 22: started
+50: Elf 25: started
+51: Elf 25: need help
+52: Elf 23: started
+53: Elf 23: need help
+54: Elf 20: started
+55: Elf 20: need help
+56: Elf 26: started
+57: Elf 26: need help
+58: Elf 27: started
+59: Elf 27: need help
+60: Elf 22: need help
+61: Elf 28: started
+62: Elf 28: need help
+63: Santa: going to sleep
+64: Santa: helping elves
+65: Elf 29: started
+66: Elf 29: need help
+67: Elf 21: get help
+68: Elf 21: need help
+69: Elf 5: get help
+70: Elf 5: need help
+71: Elf 30: started
+72: Elf 30: need help
+73: Elf 31: started
+74: Elf 31: need help
+75: Elf 7: get help
+76: Elf 7: need help
+77: Elf 33: started
+78: Elf 33: need help
+79: Elf 32: started
+80: Elf 32: need help
+81: Santa: going to sleep
+82: Elf 34: started
+83: Elf 34: need help
+84: Elf 38: started
+85: Elf 38: need help
+86: Elf 40: started
+87: Elf 40: need help
+88: Santa: helping elves
+89: Elf 41: started
+90: Elf 33: get help
+91: Elf 33: need help
+92: Elf 7: get help
+93: Elf 7: need help
+94: Elf 4: get help
+95: Elf 4: need help
+96: Elf 41: need help
+97: Santa: going to sleep
+98: Santa: helping elves
+99: Elf 8: get help
+100: Elf 8: need help
+101: Elf 4: get help
+102: Elf 4: need help
+103: Elf 41: get help
+104: Santa: going to sleep
+105: Elf 41: need help
+106: Santa: helping elves
+107: Elf 18: get help
+108: Elf 18: need help
+109: Elf 41: get help
+110: Elf 2: get help
+111: Elf 35: started
+112: Elf 35: need help
+113: Elf 2: need help
+114: Elf 41: need help
+115: Santa: going to sleep
+116: Elf 36: started
+117: Elf 44: started
+118: Elf 44: need help
+119: Elf 36: need help
+120: Santa: helping elves
+121: Elf 14: get help
+122: Elf 14: need help
+123: Elf 45: started
+124: Elf 11: get help
+125: Elf 11: need help
+126: Elf 19: get help
+127: Elf 19: need help
+128: Elf 9: started
+129: Santa: going to sleep
+130: Elf 37: started
+131: Elf 37: need help
+132: Elf 9: need help
+133: Elf 45: need help
+134: Santa: helping elves
+135: Elf 15: get help
+136: Elf 15: need help
+137: Elf 3: get help
+138: Elf 39: started
+139: Elf 3: need help
+140: Elf 13: get help
+141: Elf 13: need help
+142: Santa: going to sleep
+143: Santa: helping elves
+144: Elf 39: need help
+145: Elf 42: started
+146: Elf 17: get help
+147: Elf 17: need help
+148: Elf 24: get help
+149: Elf 24: need help
+150: Elf 13: get help
+151: Santa: going to sleep
+152: Elf 42: need help
+153: Elf 13: need help
+154: Santa: helping elves
+155: Elf 20: get help
+156: Elf 20: need help
+157: Elf 26: get help
+158: Elf 26: need help
+159: Elf 23: get help
+160: Elf 23: need help
+161: Santa: going to sleep
+162: Santa: helping elves
+163: Elf 27: get help
+164: Elf 27: need help
+165: Elf 22: get help
+166: Elf 22: need help
+167: Elf 28: get help
+168: Elf 28: need help
+169: Santa: going to sleep
+170: Santa: helping elves
+171: Elf 28: get help
+172: Elf 21: get help
+173: Elf 21: need help
+174: Elf 29: get help
+175: Santa: going to sleep
+176: Elf 28: need help
+177: Santa: helping elves
+178: Elf 29: need help
+179: Elf 31: get help
+180: Elf 31: need help
+181: Elf 28: get help
+182: Elf 28: need help
+183: Elf 30: get help
+184: Elf 30: need help
+185: Santa: going to sleep
+186: Santa: helping elves
+187: Elf 30: get help
+188: Elf 43: started
+189: Elf 32: get help
+190: Elf 32: need help
+191: Elf 30: need help
+192: Elf 43: need help
+193: Elf 34: get help
+194: Elf 34: need help
+195: Santa: going to sleep
+196: Santa: helping elves
+197: Elf 34: get help
+198: Elf 33: get help
+199: Elf 33: need help
+200: Elf 40: get help
+201: Elf 40: need help
+202: Elf 34: need help
+203: Santa: going to sleep
+204: Elf 50: started
+205: Elf 50: need help
+206: Santa: helping elves
+207: Elf 8: get help
+208: Elf 8: need help
+209: Elf 4: get help
+210: Elf 4: need help
+211: Elf 12: get help
+212: Elf 12: need help
+213: RD 1: rstarted
+214: RD 1: return home
+215: Santa: going to sleep
+216: Santa: helping elves
+217: Elf 16: get help
+218: Elf 16: need help
+219: Elf 18: get help
+220: RD 2: rstarted
+221: Elf 18: need help
+222: Elf 12: get help
+223: Elf 12: need help
+224: RD 2: return home
+225: Santa: going to sleep
+226: Santa: helping elves
+227: Elf 2: get help
+228: Elf 2: need help
+229: Elf 41: get help
+230: Elf 41: need help
+231: Elf 12: get help
+232: Elf 12: need help
+233: Santa: going to sleep
+234: RD 3: rstarted
+235: Santa: helping elves
+236: RD 3: return home
+237: Elf 12: get help
+238: Elf 12: need help
+239: Elf 14: get help
+240: Elf 14: need help
+241: Elf 36: get help
+242: Santa: going to sleep
+243: Elf 36: need help
+244: RD 4: rstarted
+245: RD 4: return home
+246: Santa: helping elves
+247: Elf 37: get help
+248: RD 5: rstarted
+249: RD 5: return home
+250: Elf 37: need help
+251: Elf 19: get help
+252: Elf 19: need help
+253: Elf 11: get help
+254: Elf 11: need help
+255: RD 6: rstarted
+256: RD 6: return home
+257: Santa: going to sleep
+258: Santa: helping elves
+259: Elf 11: get help
+260: Elf 45: get help
+261: Elf 45: need help
+262: Elf 9: get help
+263: Elf 9: need help
+264: Elf 11: need help
+265: RD 8: rstarted
+266: RD 8: return home
+267: Santa: going to sleep
+268: RD 7: rstarted
+269: RD 7: return home
+270: RD 9: rstarted
+271: RD 9: return home
+272: Santa: helping elves
+273: Elf 3: get help
+274: Elf 39: get help
+275: Elf 39: need help
+276: Elf 3: need help
+277: Elf 25: get help
+278: Elf 25: need help
+279: Santa: going to sleep
+280: RD 12: rstarted
+281: Santa: helping elves
+282: RD 13: rstarted
+283: RD 13: return home
+284: Elf 17: get help
+285: Elf 17: need help
+286: Elf 42: get help
+287: Elf 42: need help
+288: Elf 24: get help
+289: RD 14: rstarted
+290: RD 14: return home
+291: Elf 49: started
+292: Santa: going to sleep
+293: RD 12: return home
+294: Elf 48: started
+295: Elf 48: need help
+296: Elf 24: need help
+297: RD 10: rstarted
+298: RD 10: return home
+299: RD 11: rstarted
+300: RD 11: return home
+301: Santa: closing workshop
+302: Santa: Christmas started
+303: Elf 46: started
+304: Elf 46: taking holidays
+305: Elf 49: need help
+306: RD 3: get hitched
+307: RD 4: get hitched
+308: RD 5: get hitched
+309: RD 8: get hitched
+310: RD 6: get hitched
+311: RD 7: get hitched
+312: RD 9: get hitched
+313: RD 13: get hitched
+314: RD 14: get hitched
+315: RD 12: get hitched
+316: RD 10: get hitched
+317: RD 11: get hitched
+318: Elf 47: started
+319: Elf 47: taking holidays
+320: Elf 13: taking holidays
+321: Elf 26: taking holidays
+322: RD 1: get hitched
+323: Elf 49: taking holidays
+324: RD 2: get hitched
+325: Elf 20: taking holidays
+326: Elf 10: taking holidays
+327: Elf 1: taking holidays
+328: Elf 30: taking holidays
+329: Elf 23: taking holidays
+330: Elf 7: taking holidays
+331: Elf 31: taking holidays
+332: Elf 40: taking holidays
+333: Elf 21: taking holidays
+334: Elf 12: taking holidays
+335: Elf 41: taking holidays
+336: Elf 44: taking holidays
+337: Elf 45: taking holidays
+338: Elf 43: taking holidays
+339: Elf 18: taking holidays
+340: Elf 42: taking holidays
+341: Elf 38: taking holidays
+342: Elf 5: taking holidays
+343: Elf 25: taking holidays
+344: Elf 32: taking holidays
+345: Elf 24: taking holidays
+346: Elf 50: taking holidays
+347: Elf 14: taking holidays
+348: Elf 19: taking holidays
+349: Elf 15: taking holidays
+350: Elf 48: taking holidays
+351: Elf 6: taking holidays
+352: Elf 2: taking holidays
+353: Elf 4: taking holidays
+354: Elf 3: taking holidays
+355: Elf 39: taking holidays
+356: Elf 34: taking holidays
+357: Elf 29: taking holidays
+358: Elf 17: taking holidays
+359: Elf 36: taking holidays
+360: Elf 22: taking holidays
+361: Elf 28: taking holidays
+362: Elf 33: taking holidays
+363: Elf 16: taking holidays
+364: Elf 11: taking holidays
+365: Elf 35: taking holidays
+366: Elf 8: taking holidays
+367: Elf 9: taking holidays
+368: Elf 37: taking holidays
+369: Elf 27: taking holidays

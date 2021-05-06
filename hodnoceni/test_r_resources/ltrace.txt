@@ -1,0 +1,263 @@
+6255 strtol(0x7ffeedd92730, 0x7ffeedd90640, 10, 0) = 3
+6255 strtol(0x7ffeedd92732, 0x7ffeedd90640, 10, 0x1999999999999999) = 1
+6255 strtol(0x7ffeedd92734, 0x7ffeedd90640, 10, 0x1999999999999999) = 1
+6255 strtol(0x7ffeedd92736, 0x7ffeedd90640, 10, 0x1999999999999999) = 2
+6255 calloc(5, 4)                                = 0x55f257160260
+6255 fopen("proj2.out", "w")                     = 0x55f257160280
+6255 mmap(0, 192, 3, 33)                         = 0x7fca55288000
+6255 sem_init(0x7fca55288000, 1, 1, 0x7fca54b6b813) = 0
+6255 sem_init(0x7fca55288020, 1, 0, 0x7fca54b6b813) = 0
+6255 sem_init(0x7fca55288040, 1, 1, 0x7fca54b6b813) = 0
+6255 sem_init(0x7fca55288060, 1, 0, 0x7fca54b6b813) = 0
+6255 sem_init(0x7fca55288080, 1, 0, 0x7fca54b6b813) = 0
+6255 sem_init(0x7fca552880a0, 1, 0, 0x7fca54b6b813) = 0
+6255 mmap(0, 20, 3, 33)                          = 0x7fca55287000
+6255 getpid()                                    = 6255
+6255 fork()                                      = 6256
+6255 signal(SIGUSR1, 0x55f255903070)             = 0
+6255 fork( <unfinished ...>
+6256 <... fork resumed> )                        = 0
+6256 sem_wait(0x7fca55288000, 0x7fca5505b2b0, 1, 0 <unfinished ...>
+6255 <... fork resumed> )                        = 6257
+6255 signal(SIGUSR1, 0x55f255903070 <unfinished ...>
+6257 <... fork resumed> )                        = 0
+6255 <... signal resumed> )                      = 0x55f255903070
+6257 time(0x7ffeedd90610 <unfinished ...>
+6255 fork( <unfinished ...>
+6256 <... sem_wait resumed> )                    = 0
+6257 <... time resumed> )                        = 1620118834
+6256 __fprintf_chk(0x55f257160280, 1, 0x55f255903de9, 1 <unfinished ...>
+6257 getpid( <unfinished ...>
+6255 <... fork resumed> )                        = 6258
+6255 signal(SIGUSR1, 0x55f255903070 <unfinished ...>
+6258 <... fork resumed> )                        = 0
+6255 <... signal resumed> )                      = 0x55f255903070
+6258 time(0x7ffeedd90610 <unfinished ...>
+6255 fork( <unfinished ...>
+6257 <... getpid resumed> )                      = 6257
+6258 <... time resumed> )                        = 1620118834
+6257 srand(0x39438312, 1, 0x7fca55262a00, 0x7fca54b35937 <unfinished ...>
+6258 getpid( <unfinished ...>
+6255 <... fork resumed> )                        = 6259
+6255 signal(SIGUSR1, 0x55f255903070 <unfinished ...>
+6259 <... fork resumed> )                        = 0
+6259 time(0x7ffeedd90610 <unfinished ...>
+6255 <... signal resumed> )                      = 0x55f255903070
+6255 fork( <unfinished ...>
+6259 <... time resumed> )                        = 1620118834
+6259 getpid( <unfinished ...>
+6258 <... getpid resumed> )                      = 6258
+6258 srand(0x99d49044, 1, 0x7fca55262a00, 0x7fca54b35937 <unfinished ...>
+6255 <... fork resumed> )                        = 6260
+6259 <... getpid resumed> )                      = 6259
+6255 signal(SIGUSR1, 0x55f255903070 <unfinished ...>
+6259 srand(0xfa659d76, 1, 0x7fca55262a00, 0x7fca54b35937 <unfinished ...>
+6260 <... fork resumed> )                        = 0
+6255 <... signal resumed> )                      = 0x55f255903070
+6260 time(0x7ffeedd90600 <unfinished ...>
+6255 signal(SIGUSR1, 0x55f255903070 <unfinished ...>
+6259 <... srand resumed> )                       = 0
+6260 <... time resumed> )                        = 1620118834
+6260 getpid( <unfinished ...>
+6255 <... signal resumed> )                      = 0x55f255903070
+6255 waitpid(6256, 0x7ffeedd9068c, 0 <unfinished ...>
+6260 <... getpid resumed> )                      = 6260
+6259 sem_wait(0x7fca55288000, 0x7fca54e3b740, 0x7fca54e3b1c4, 0x7fca54e3b1d0 <unfinished ...>
+6260 srand(0x5af6aaa8, 1, 2, 0x7fca54b35937 <unfinished ...>
+6258 <... srand resumed> )                       = 0
+6260 <... srand resumed> )                       = 0
+6260 sem_wait(0x7fca55288000, 0x7fca54e3b740, 0x7fca54e3b1c4, 0x7fca54e3b1d0 <unfinished ...>
+6258 sem_wait(0x7fca55288000, 0x7fca54e3b740, 0x7fca54e3b1c4, 0x7fca54e3b1d0 <unfinished ...>
+6257 <... srand resumed> )                       = 0
+6257 sem_wait(0x7fca55288000, 0x7fca54e3b740, 0x7fca54e3b1c4, 0x7fca54e3b1d0 <unfinished ...>
+6256 <... __fprintf_chk resumed> )               = 25
+6256 fflush(0x55f257160280)                      = 0
+6256 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6256 <... sem_post resumed> )                    = 0
+6259 __fprintf_chk(0x55f257160280, 1, 0x55f255903e9e, 2 <unfinished ...>
+6256 sem_wait(0x7fca55288020, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6259 <... __fprintf_chk resumed> )               = 18
+6259 fflush(0x55f257160280)                      = 0
+6259 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6260 <... sem_wait resumed> )                    = 0
+6259 rand(1, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6260 __fprintf_chk(0x55f257160280, 1, 0x55f255903e59, 3 <unfinished ...>
+6259 <... rand resumed> )                        = 0x2a241ca5
+6259 usleep(0 <unfinished ...>
+6260 <... __fprintf_chk resumed> )               = 18
+6260 fflush(0x55f257160280 <unfinished ...>
+6259 <... usleep resumed> )                      = <void>
+6260 <... fflush resumed> )                      = 0
+6259 sem_wait(0x7fca55288000, 0, 0, 0 <unfinished ...>
+6260 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6260 <... sem_post resumed> )                    = 0
+6259 __fprintf_chk(0x55f257160280, 1, 0x55f255903eb3, 4 <unfinished ...>
+6260 rand(0x7fca55288000, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6259 <... __fprintf_chk resumed> )               = 20
+6260 <... rand resumed> )                        = 0x605266d6
+6259 fflush(0x55f257160280 <unfinished ...>
+6260 usleep(1000 <unfinished ...>
+6259 <... fflush resumed> )                      = 0
+6259 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6257 <... sem_wait resumed> )                    = 0
+6259 sem_wait(0x7fca55288040, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6257 __fprintf_chk(0x55f257160280, 1, 0x55f255903e9e, 5 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6259 sem_wait(0x7fca55288000, 1, 0, 0x7fca54e51ba4 <unfinished ...>
+6257 <... __fprintf_chk resumed> )               = 18
+6257 fflush(0x55f257160280)                      = 0
+6257 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6258 <... sem_wait resumed> )                    = 0
+6257 <... sem_post resumed> )                    = 0
+6258 __fprintf_chk(0x55f257160280, 1, 0x55f255903e9e, 6 <unfinished ...>
+6257 rand(1, 1, 1, 0x7fca54e51ba4)               = 0x17c72d93
+6257 usleep(0 <unfinished ...>
+6258 <... __fprintf_chk resumed> )               = 18
+6258 fflush(0x55f257160280 <unfinished ...>
+6257 <... usleep resumed> )                      = <void>
+6258 <... fflush resumed> )                      = 0
+6257 sem_wait(0x7fca55288000, 0, 0, 0 <unfinished ...>
+6258 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6257 <... sem_wait resumed> )                    = 0
+6258 rand(1, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6257 __fprintf_chk(0x55f257160280, 1, 0x55f255903eb3, 7 <unfinished ...>
+6258 <... rand resumed> )                        = 0x73db19d1
+6258 usleep(0 <unfinished ...>
+6260 <... usleep resumed> )                      = <void>
+6260 sem_wait(0x7fca55288000, 0, 0, 0 <unfinished ...>
+6257 <... __fprintf_chk resumed> )               = 20
+6257 fflush(0x55f257160280 <unfinished ...>
+6258 <... usleep resumed> )                      = <void>
+6258 sem_wait(0x7fca55288000, 0, 0, 0 <unfinished ...>
+6257 <... fflush resumed> )                      = 0
+6257 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6257 <... sem_post resumed> )                    = 0
+6259 sem_post(0x7fca55288040, 0, 0x7fca55287000, 0 <unfinished ...>
+6257 sem_wait(0x7fca55288040, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6259 <... sem_post resumed> )                    = 0
+6257 <... sem_wait resumed> )                    = 0
+6259 sem_post(0x7fca55288000, 128, 1, 0 <unfinished ...>
+6257 sem_wait(0x7fca55288000, 1, 0, 0x7fca54e51ba4) = 0
+6259 <... sem_post resumed> )                    = 0
+6257 sem_post(0x7fca55288040, 1, 0x7fca55287000, 0x7fca54e51ba4 <unfinished ...>
+6259 sem_wait(0x7fca55288080, 1, 1, 1 <unfinished ...>
+6257 <... sem_post resumed> )                    = 0
+6257 sem_post(0x7fca55288000, 128, 1, 0x7fca54e51ba4 <unfinished ...>
+6258 <... sem_wait resumed> )                    = 0
+6257 <... sem_post resumed> )                    = 0
+6258 __fprintf_chk(0x55f257160280, 1, 0x55f255903eb3, 8 <unfinished ...>
+6257 sem_wait(0x7fca55288080, 1, 1, 1 <unfinished ...>
+6258 <... __fprintf_chk resumed> )               = 20
+6258 fflush(0x55f257160280)                      = 0
+6258 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6260 <... sem_wait resumed> )                    = 0
+6258 <... sem_post resumed> )                    = 0
+6260 __fprintf_chk(0x55f257160280, 1, 0x55f255903e6e, 9 <unfinished ...>
+6258 sem_wait(0x7fca55288040, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6260 <... __fprintf_chk resumed> )               = 21
+6258 <... sem_wait resumed> )                    = 0
+6260 fflush(0x55f257160280 <unfinished ...>
+6258 sem_wait(0x7fca55288000, 1, 0, 0x7fca54e51ba4 <unfinished ...>
+6260 <... fflush resumed> )                      = 0
+6260 sem_post(0x7fca55288020, 0x55f257160360, 0x7fca55287000, 0x7fca54b60224) = 0
+6256 <... sem_wait resumed> )                    = 0
+6260 sem_post(0x7fca55288000, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6256 sem_wait(0x7fca55288000, 0, 0, 0)           = 0
+6256 __fprintf_chk(0x55f257160280, 1, 0x55f255903e04, 10 <unfinished ...>
+6260 <... sem_post resumed> )                    = 0
+6260 sem_wait(0x7fca55288060, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6256 <... __fprintf_chk resumed> )               = 28
+6256 fflush(0x55f257160280)                      = 0
+6256 sem_post(0x7fca55288060, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6256 sem_post(0x7fca55288000, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6258 <... sem_wait resumed> )                    = 0
+6258 sem_post(0x7fca55288040, 0, 0x7fca55287000, 0 <unfinished ...>
+6256 <... sem_post resumed> )                    = 0
+6260 <... sem_wait resumed> )                    = 0
+6260 sem_wait(0x7fca55288000, 0, 0, 0 <unfinished ...>
+6258 <... sem_post resumed> )                    = 0
+6256 sem_wait(0x7fca55288020, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6258 sem_post(0x7fca55288000, 128, 1, 0 <unfinished ...>
+6260 <... sem_wait resumed> )                    = 0
+6258 <... sem_post resumed> )                    = 0
+6260 __fprintf_chk(0x55f257160280, 1, 0x55f255903e86, 11 <unfinished ...>
+6258 sem_wait(0x7fca55288000, 1, 1, 0 <unfinished ...>
+6260 <... __fprintf_chk resumed> )               = 22
+6260 fflush(0x55f257160280)                      = 0
+6260 sem_post(0x7fca55288020, 0x55f257160360, 0x7fca55287000, 0x7fca54b60224) = 0
+6256 <... sem_wait resumed> )                    = 0
+6260 sem_post(0x7fca55288000, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6256 sem_wait(0x7fca55288000, 0, 0, 0)           = 0
+6260 <... sem_post resumed> )                    = 0
+6256 __fprintf_chk(0x55f257160280, 1, 0x55f255903e3b, 12 <unfinished ...>
+6260 exit(0 <unfinished ...>
+6256 <... __fprintf_chk resumed> )               = 29
+6256 fflush(0x55f257160280)                      = 0
+6256 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6260 +++ exited (status 0) +++
+6258 <... sem_wait resumed> )                    = 0
+6255 --- SIGCHLD (Child exited) ---
+6258 __fprintf_chk(0x55f257160280, 1, 0x55f255903ee0, 13 <unfinished ...>
+6256 sem_post(0x7fca55288080, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6258 <... __fprintf_chk resumed> )               = 27
+6258 fflush(0x55f257160280 <unfinished ...>
+6256 <... sem_post resumed> )                    = 0
+6256 exit(0 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6258 <... fflush resumed> )                      = 0
+6259 sem_post(0x7fca55288080, 0, 0, 0 <unfinished ...>
+6258 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224) = 0
+6258 sem_post(0x7fca55288040, 128, 1, 0x7fca54b60224 <unfinished ...>
+6259 <... sem_post resumed> )                    = 0
+6259 sem_wait(0x7fca55288000, 1, 1, 0x7fca54e51ba4 <unfinished ...>
+6258 <... sem_post resumed> )                    = 0
+6258 exit(0 <unfinished ...>
+6259 <... sem_wait resumed> )                    = 0
+6259 __fprintf_chk(0x55f257160280, 1, 0x55f255903ee0, 14) = 27
+6257 <... sem_wait resumed> )                    = 0
+6259 fflush(0x55f257160280 <no return ...>
+6258 +++ exited (status 0) +++
+6255 --- SIGCHLD (Child exited) ---
+6257 sem_post(0x7fca55288080, 0, 0, 0 <unfinished ...>
+6259 <... fflush resumed> )                      = 0
+6257 <... sem_post resumed> )                    = 0
+6259 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <unfinished ...>
+6257 sem_wait(0x7fca55288000, 128, 1, 0 <unfinished ...>
+6259 <... sem_post resumed> )                    = 0
+6257 <... sem_wait resumed> )                    = 0
+6259 sem_post(0x7fca55288040, 128, 1, 0x7fca54b60224 <unfinished ...>
+6257 __fprintf_chk(0x55f257160280, 1, 0x55f255903ee0, 15 <unfinished ...>
+6259 <... sem_post resumed> )                    = 0
+6257 <... __fprintf_chk resumed> )               = 27
+6259 exit(0 <unfinished ...>
+6257 fflush(0x55f257160280)                      = 0
+6257 sem_post(0x7fca55288000, 0x55f257160360, 0, 0x7fca54b60224 <no return ...>
+6259 +++ exited (status 0) +++
+6255 --- SIGCHLD (Child exited) ---
+6257 <... sem_post resumed> )                    = 0
+6256 +++ exited (status 0) +++
+6257 sem_post(0x7fca55288040, 128, 1, 0x7fca54b60224 <no return ...>
+6255 --- SIGCHLD (Child exited) ---
+6257 <... sem_post resumed> )                    = 0
+6257 exit(0 <unfinished ...>
+6255 <... waitpid resumed> )                     = 6256
+6255 waitpid(6257, 0x7ffeedd9068c, 0 <no return ...>
+6257 +++ exited (status 0) +++
+6255 --- SIGCHLD (Child exited) ---
+6255 <... waitpid resumed> )                     = 6257
+6255 waitpid(6258, 0x7ffeedd9068c, 0)            = 6258
+6255 waitpid(6259, 0x7ffeedd9068c, 0)            = 6259
+6255 waitpid(6260, 0x7ffeedd9068c, 0)            = 6260
+6255 fclose(0x55f257160280)                      = 0
+6255 sem_destroy(0x7fca552880a0, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 sem_destroy(0x7fca55288080, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 sem_destroy(0x7fca55288060, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 sem_destroy(0x7fca55288040, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 sem_destroy(0x7fca55288020, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 sem_destroy(0x7fca55288000, 0x55f257160118, 0x55f257160010, 1) = 0
+6255 munmap(0x7fca55288000, 192, 0x55f257160010, 1) = 0
+6255 munmap(0x7fca55287000, 20, 0x55f257160010, 0x7fca54b6b8b7) = 0
+6255 +++ exited (status 0) +++
